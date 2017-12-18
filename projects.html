@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	
+	<!-- Designed and Coded by: Jennifer Lemke -->
+	<!-- Last Updated: 10/25/2017 -->
+	
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link href="./css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="./fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./css/jquery.sidr.dark.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+	
+	<!-- Javascript -->
+	<script src="./js/jQuery.js"></script> 
+	<script src="./js/image-hover.js"></script>
+	<script src="./js/jquery.sidr.min.js"></script>
+  
+ 
+
+</head>
+<body>
+	<div class = "container">
+		<header class="row">
+			<div class = "col-md-3 center-align">
+				<h1>Jennifer Lemke</h1>
+				<h4>Web Developer</h4>
+			</div>
+			<a id="simple-menu" href="#sidr"><i class="fa fa-bars fa-3x" aria-hidden="true"></i></a>
+			<div id="sidr">
+				<ul>
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="./about.html">About</a></li>
+					<li class = "active"><a href="#">Projects</a></li>
+				</ul>
+			</div>
+			<script>
+				$(document).ready(function() {
+				$('#simple-menu').sidr();
+				});
+			</script>
+		</header>
+
+
+		<section class = "row projects">
+			<div class= "col-md-7 center-align">
+				<div class= "project col-md-4">
+					<a class = "project_1" href = "./portfolio.html"><img class="img-responsive project-img" src="./images/StockSnap_DWLWL9USBG.jpg" alt="cellphone taking photo of field"></a>
+				</div>
+				<div class= "project col-md-4">
+					<a class = "project_2" href = "./dobbes.html"><img class="img-responsive project-img" src="./images/dobbes_1.png" alt="close up of sunflower"/></a>
+				</div>
+				<div class= "project col-md-4">
+					<a class = "project_3" href = "./winedemo.html"><img class="img-responsive project-img" src="images/pexels-photo-197907.jpeg" alt="bokeh of lightbulb"/></a>
+				</div>
+			</div>
+		</section>
+		
+		<section class= "row">
+			<div class = "col-md-7 center-align contact">
+				<div class="social center-align">
+					<ul class="fa-ul">
+						<li><a href = "https://www.linkedin.com/in/jennifer-lemke-31a90880/"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a></li>
+						<li><a href = "mailto:jklemke03@gmail.com"><i class="fa fa-envelope fa-4x" aria-hidden="true"></i></a></li>
+						<li><a href = "https://github.com/jklemke03"><i class="fa fa-github-square fa-4x" aria-hidden="true"></a></i>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<footer></footer>
+
+	</div>
+</body>
+</html>

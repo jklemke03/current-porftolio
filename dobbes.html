@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	
+	<!-- Designed and Coded by: Jennifer Lemke -->
+	<!-- Last Updated: 10/25/2017 -->
+	
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link href="./css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="./fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./css/jquery.sidr.dark.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+	
+	<!-- Javascript -->
+	<script src="./js/jQuery.js"></script> 
+	<script src="./js/image-hover.js"></script>
+	<script src="./js/jquery.sidr.min.js"></script>
+  
+ 
+
+</head>
+
+<body>
+	<div class = "container">
+		<header class="row" style = "background-color: #532613">
+			<div class = "col-md-3 center-align">
+				<h1 class = "white">Jennifer Lemke</h1>
+				<h4 class = "white">Web Developer</h4>
+			</div>
+			<a id="simple-menu" href="#sidr"><i class="fa fa-bars fa-3x white" aria-hidden="true"></i></a>
+			<div id="sidr">
+				<ul>
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="./about.html">About</a></li>
+					<li><a href="./projects.html">Projects</a></li>
+				</ul>
+			</div>
+			<script>
+				$(document).ready(function() {
+				$('#simple-menu').sidr();
+				});
+			</script>
+		</header>
+
+		<section class = "row" style = "background-color: #532613">
+			<div class = "col-md-5 section-image center-align">
+				<img class = "img-responsive" src="./images/dobbes_2.png">
+			</div>
+		</section>
+		<section class = "row">
+			<div class = "col-md-6 center-align proj_detail">
+				<h2>Dobbes Family Estate Web Store</h2>
+				<p>A wordpress created web store that leverages a woocommerce plugin to provide a seamless purchase flow. Designed and coded to match their current site designed by an external company.
+					The web store creation included shop pages, cart/checkout page, as well as account page. Coded to ensure the site is fully responsive on all screens</p>
+				<a href = "http://6e6.8ca.myftpupload.com/">View Website</a>
+			</div>
+		</section>
+
+
+
+		<footer>
+			<div class="social center-align">
+				<ul class="fa-ul">
+					<li><a href = "https://www.linkedin.com/in/jennifer-lemke-31a90880/"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a></li>
+					<li><a href = "mailto:jklemke03@gmail.com"><i class="fa fa-envelope fa-4x" aria-hidden="true"></i></a></li>
+					<li><a href = "https://github.com/jklemke03"><i class="fa fa-github-square fa-4x" aria-hidden="true"></a></i>
+				</ul>
+			</div>
+		</footer>
+
+	</div>
+</body>
+</html>
